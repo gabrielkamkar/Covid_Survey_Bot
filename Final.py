@@ -1,4 +1,3 @@
-# check if selenium is installed
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -7,8 +6,8 @@ import os
 
 website = 'https://studenthealthoc.sa.ucsb.edu/login_dualauthentication.aspx'
 chromedriver_path = 'C:\\Program Files (x86)\\chromedriver.exe'
-user = 'gabrielkamkar'
-secret = 'Fingerbang123#'
+user = 'username'
+secret = 'password'
 
 driver = webdriver.Chrome(chromedriver_path)
 driver.get(website)
